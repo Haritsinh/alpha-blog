@@ -1,1 +1,1 @@
-This is the repository for my first web app alpha-blog in Ruby on Rails.  
+This is the repository for my first web app alpha-blog in Ruby on Rails.	  
