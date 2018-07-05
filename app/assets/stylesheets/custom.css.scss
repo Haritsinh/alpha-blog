@@ -1,2 +1,60 @@
+$navbar-default-bg: #000;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+	float: left;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font: 1.7em;
+	font-weight: bold;
+}
+#logo:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.jumbotron {
+	background-image: asset-url('harit.JPG');
+	background-size: cover;
+	height: 551px;
+}
+.jumbotron h1 {
+	margin-bottom:55px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+.white-color{
+	color:#fff !important;
+}
+.btn-xlg{
+	font-size: 1.7em;
+	background-color: #59e23f;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+footer a:hover{
+	color:#222;
+}
+
+footer small {
+	float:left;
+}
+
+footer ul{
+	float:right;
+	list-style:none;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}
