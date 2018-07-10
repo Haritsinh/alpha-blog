@@ -28,7 +28,7 @@ Rails.application.configure do
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
-  #below lines added by me(harit) to solve js issue in development
+  #below lines added by me(harit) to solve js issue in production
   config.serve_static_files = true
   config.assets.debug = true
 
